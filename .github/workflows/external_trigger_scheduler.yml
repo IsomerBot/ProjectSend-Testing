@@ -1,8 +1,8 @@
 name: External Trigger Scheduler
 
 on:
-  schedule:
-    - cron:  '53 * * * *'
+  # schedule:
+  #   - cron:  '53 * * * *'
   workflow_dispatch:
 
 jobs:
